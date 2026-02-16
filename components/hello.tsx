@@ -1,6 +1,6 @@
 'use client';
 
-const hello = () => {
+const Hello = () => {
     console.log("Client side");
     
   return (
@@ -8,4 +8,4 @@ const hello = () => {
   )
 }
 
-export default hello
+export default Hello

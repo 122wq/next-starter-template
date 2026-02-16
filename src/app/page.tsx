@@ -86,7 +86,7 @@ export default function Home() {
 		</div>
 	);
 }*/
-import Hello from "./app/components/hello.tsx";
+import Hello from "@/app/components/hello";
 const Home = () => {
 	console.log("Hello, Next.js!");
   	return (
