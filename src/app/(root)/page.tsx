@@ -87,7 +87,7 @@ export default function Home() {
 	);
 }*/
 import Link from "next/link";
-import Hello from "../../components/hello";
+import Hello from "../../../components/hello";
 const Home = () => {
 	console.log("Hello, Next.js!");
   	return (
