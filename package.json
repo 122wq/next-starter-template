@@ -12,8 +12,8 @@
 		"publish": true
 	},
 	"dependencies": {
-		"@opennextjs/cloudflare": "1.14.0",
-		"next": "16.0.7",
+		"@opennextjs/cloudflare": "^1.16.5",
+		"next": "^16.1.6",
 		"react": "19.2.1",
 		"react-dom": "19.2.1"
 	},
@@ -21,13 +21,13 @@
 		"@eslint/eslintrc": "3",
 		"@tailwindcss/postcss": "4.1.17",
 		"@types/node": "24.10.1",
-		"@types/react": "19.2.7",
-		"@types/react-dom": "19.2.3",
+		"@types/react": "^19.2.14",
+		"@types/react-dom": "^19.2.3",
 		"eslint": "9.39.2",
 		"eslint-config-next": "16.0.7",
 		"tailwindcss": "4.1.17",
 		"typescript": "5.9.3",
-		"wrangler": "4.56.0"
+		"wrangler": "^4.65.0"
 	},
 	"private": true,
 	"scripts": {
