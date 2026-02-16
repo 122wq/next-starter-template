@@ -86,13 +86,20 @@ export default function Home() {
 		</div>
 	);
 }*/
+import Link from "next/link";
 import Hello from "../../components/hello";
 const Home = () => {
 	console.log("Hello, Next.js!");
   	return (
 		<main>
-
 			<div className = "text-5xl underline">Welcome to Nex.js!</div>
+			<div>
+				<ul className = "mt10" style = {{ textDecoration: "underline" }}>
+					<li className = "text-blue-500"> <Link href="/about">about </Link></li>
+					<li className = "text-blue-500"> <Link href="/dashboard/analytics">analytics </Link></li>
+					<li className = "text-blue-500"> <Link href="/dashboard/user">user </Link></li>
+				</ul>
+			</div>
 			<Hello />
 		</main>
 		
