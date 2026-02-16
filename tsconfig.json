@@ -19,6 +19,11 @@
 			}
 		],
 		"paths": {
+			 "@app/*": ["./app/*"],
+  			"@assets/*": ["./assets/*"],
+  			"@components/*": ["./components/*"],
+  			"@styles/*": ["./styles/*"],
+  			"@utils/*": ["./utils/*"],
 			"@/*": ["./src/*"]
 		},
 		"types": ["./env.d.ts", "node"]

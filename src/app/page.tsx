@@ -1,4 +1,4 @@
-import Image from "next/image";
+/*import Image from "next/image";
 
 export default function Home() {
 	return (
@@ -85,4 +85,18 @@ export default function Home() {
 			</footer>
 		</div>
 	);
-}
+}*/
+import Hello from "./app/components/hello.tsx";
+const Home = () => {
+	console.log("Hello, Next.js!");
+  	return (
+		<main>
+
+			<div className = "text-5xl underline">Welcome to Nex.js!</div>
+			<Hello />
+		</main>
+		
+  	)
+ }
+
+export default Home
